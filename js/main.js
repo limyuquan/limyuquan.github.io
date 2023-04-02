@@ -277,8 +277,8 @@
 			event.preventDefault();
 
 			$('html,body').animate({
-				scrollTop: $('.goto-here').offset().top
-			}, 500, 'easeInOutExpo');
+				scrollTop: $('.goto-here').offset().top - 70
+			}, 300, 'easeInOutExpo');
 			
 			return false;
 		});
